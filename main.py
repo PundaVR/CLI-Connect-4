@@ -56,9 +56,9 @@ def Place(x, ply):
 
 # Get the player's next move
 def GetMove():
-    plyInput = input("Enter move (in XY i.e. 4)") 
+    plyInput = input("Enter move (in X i.e. 4)") 
     while (len(plyInput) != 1 or plyInput.isnumeric() is False): # filter invalid inputs
-        plyInput = input("Enter move (in XY i.e. 4)") 
+        plyInput = input("Enter move (in X i.e. 4)") 
     return int(plyInput[0])
 
 # Begin a new move
